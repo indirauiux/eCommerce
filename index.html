@@ -1,0 +1,215 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+	<meta http-equiv="x-ua-compatible" content="ie=edge"> 
+	<title>Shopping Cart Course Discoveryvip.com</title> 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style> 
+    	#output { 
+         	clear: both;
+         	}
+     	#checkoutdiv { 
+            display: none; 
+	        }                  
+		.footer {    
+			background-color: darkgrey; 
+			color: white;  
+			}  
+
+		body, div{
+		    margin: 0;
+		    padding: 0;
+		    border: 0;
+		    outline: 0;
+		    font-size: 100%;
+		    vertical-align: baseline;
+		    background: transparent;
+		}
+
+		.try{
+			border: 1px solid black;
+			  
+		}
+	</style> 
+</head>
+
+<body> 
+	<header>
+	<div class="row container-fluid try" id="checkoutdiv" > 
+		<div class="col-md-6 text-right">Items</div>
+		<div class="col-md-1 items"></div>
+		<div class="col-md-1 total"></div>
+		<div class="col-md-4 text-right"> <span class="btn btn-success" data-toggle="modal" data-target="#cart">Open Shopping Cart</span><a href="checkout.html" class="btn btn-primary">Proceed to checkout</a></div> 
+	
+		<nav id="nvbar" class="navbar navbar-inverse">
+			<ul class="nav navbar-nav">
+			    <li><a href="#">Home</a></li>
+			    <li><a href="#">Products</a></li>
+			    <li><a href="#">About</a></li>
+		  	</ul>
+		</nav>
+	</div> 
+	</header>
+
+	<div class="content">         <!-- content changes on each page -->  
+		<div class="row container-fluid"> 
+				<div class="col-md-3 card-block"> 
+					<h3 class="card-title">iPhone</h3> 
+					<h6 class="card-subtitle text-muted">$500.00</h6> <img src="http://placehold.it/250x150" class="img-fluid"> 
+					<div class="card-text">Product information description why its the best product ever blah blah <a href="#" class="card-link productItem btn btn-primary" data-name="iPhone" data-s="black" data-price="50000" data-id="1">Add to Cart</a> </div> 
+				</div> 
+
+				<div class="col-md-3 card-block"> 
+					<h3 class="card-title">iPad</h3> 
+					<h6 class="card-subtitle text-muted">$300.00</h6> <img src="http://placehold.it/250x150" class="img-fluid">  
+					<div class="card-text">Product information description why its the best product ever blah blah <a href="#" class="productItem btn btn-primary" data-name="iPad" data-s="white" data-price="30000" data-id="2">Add to Cart</a></div> 
+				</div>  
+				
+
+				<div class="col-md-3 card-block"> 
+					<h3 class="card-title">Cable 3</h3> 
+					<h6 class="card-subtitle text-muted">$12.00</h6> <img src="http://placehold.it/250x150" class="img-fluid">
+					<div class="card-text">Product information description why its the best product ever blah blah <a href="#" class="productItem btn btn-primary" data-name="Cable" data-s="3" data-price="1200" data-id="3">Add to Cart</a> </div>
+				</div> 
+
+				<div class="col-md-2 card-block"> 
+					<h3 class="card-title">Cable 3</h3> 
+					<h6 class="card-subtitle text-muted">$12.00</h6> <img src="http://placehold.it/250x150" class="img-fluid">
+					<div class="card-text">Product information the best  ever blah blah <a href="#" class="productItem btn btn-primary" data-name="Cable" data-s="3" data-price="1200" data-id="4">Add to Cart</a> </div>
+				</div> 
+	</div>
+
+			<div class="row container-fluid"> 
+				<div class="col-md-3 card-block"> 
+					<h3 class="card-title">Cable 3</h3> 
+					<h6 class="card-subtitle text-muted">$12.00</h6> <img src="http://placehold.it/250x150" class="img-fluid">
+					<div class="card-text">Product information description why its the best product ever blah blah <a href="#" class="productItem btn btn-primary" data-name="Cable" data-s="5" data-price="1200" data-id="3">Add to Cart</a> </div>
+				</div> 
+
+				<div class="col-md-3 card-block"> 
+					<h3 class="card-title">Cable 3</h3> 
+					<h6 class="card-subtitle text-muted">$12.00</h6> <img src="http://placehold.it/250x150" class="img-fluid">
+					<div class="card-text">Product information description why its the best product ever blah blah <a href="#" class="productItem btn btn-primary" data-name="Cable" data-s="6" data-price="1200" data-id="3">Add to Cart</a> </div>
+				</div> 
+
+				<div class="col-md-3 card-block"> 
+					<h3 class="card-title">Cable 3</h3> 
+					<h6 class="card-subtitle text-muted">$12.00</h6> <img src="http://placehold.it/250x150" class="img-fluid">
+					<div class="card-text">Product information description why its the best product ever blah blah <a href="#" class="productItem btn btn-primary" data-name="Cable" data-s="7" data-price="1200" data-id="3">Add to Cart</a> </div>
+				</div> 
+
+				<div class="col-md-2 card-block"> 
+					<h3 class="card-title">Cable 3</h3> 
+					<h6 class="card-subtitle text-muted">$12.00</h6> <img src="http://placehold.it/250x150" class="img-fluid">
+					<div class="card-text">Product information description why its the best product ever blah blah <a href="#" class="productItem btn btn-primary" data-name="Cable" data-s="8" data-price="1200" data-id="3">Add to Cart</a> </div>
+				</div> 
+            </div> 
+	</div>     
+
+	<footer class="footer">
+		<div class="container"> 
+			<p class="text-xs-center">© Copyright info blah blah </p> 
+		</div> 
+	</footer> 
+
+	<!-- Modals --> 
+	<div class="modal fade" id="cart" tabindex="-1"> 
+		<div class="modal-dialog"> 
+			<div class="modal-content"> 
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal">×</button> 
+					<h4 class="modal-title">Shopping Cart</h4></div>                 
+				<div class="modal-body"> 
+					<table class="table table-hover"> 
+						<thead class="thead-inverse"> 
+							<tr> 
+								<th>Qty</th> 
+								<th>Item Name</th> 
+								<th>Cost</th> 
+								<th class="text-xs-right">Subtotal</th> 
+								<th>Remove</th> 
+							</tr> 
+						</thead> 
+						<tbody id="output"></tbody> 
+					</table> 
+				</div> 
+				<div class="modal-footer"> 
+					<button type="button" class="btn btn-warning" data-dismiss="modal">Continue Shopping</button>
+					<a href="checkout.html" class="btn btn-primary">Proceed to checkout</a>
+				</div> 
+			</div> 
+		</div> 
+	</div> 
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script>
+
+		var shopcart = []; 
+		$(document).ready(function () { 
+			outputCart(); 
+
+			$(".productItem").click(function (e) { 
+				e.preventDefault(); 
+				var iteminfo = $(this.dataset)[0]; 
+				iteminfo.qty = 1; 
+				var itemincart = false; 
+				$.each(shopcart, function (index, value) { 
+					//console.log(index + '  ' + value.id); 
+					if (value.id == iteminfo.id) { 
+						value.qty = parseInt(value.qty) + parseInt(iteminfo.qty); 
+						itemincart = true; 
+					} 
+				}) 
+					if (!itemincart) {  
+						shopcart.push(iteminfo); 
+					} 
+				
+				sessionStorage["sca"] = JSON.stringify(shopcart); 
+				outputCart();                 
+			})
+
+            function outputCart() { 
+				if(sessionStorage["sca"] != null) { 
+					shopcart = JSON.parse(sessionStorage["sca"].toString()); 
+					console.log(sessionStorage["sca"]); 
+					$('#checkoutdiv').show(); 
+					var holderHTML = ''; 
+					var total = 0; 
+					var itemCnt = 0; 
+					$.each(shopcart, function (index, value) { 
+						console.log(value); 
+						var stotal = value.qty * value.price; 
+						total += stotal; 
+						itemCnt += parseInt(value.qty); 
+
+						holderHTML += '<tr><td>' + value.qty + '</td><td>#' + value.id + ' ' + value.name + '(' + value.s + ')</td><td> ' + formatMoney(value.price) + ' </td><td class="text-xs-right"> ' + formatMoney(stotal) + '</td><td><span class="remove-item btn btn-danger">x</span></td></tr>'; }) 
+						holderHTML += '<tr><td colspan="3" class="text-xs-right">Total</td><td class="text-xs-right">' + formatMoney(total) + '</td></tr>'; 
+
+						$('#output').html(holderHTML); 
+						$('.total').html(formatMoney(total)); 
+						$('.items').html(itemCnt); 
+					}
+			}
+
+            function formatMoney(n) { 
+				return '$' + (n / 100).toFixed(2); 
+			} 
+
+			$('#output').on('click', '.remove-item', function () { 
+				var itemInfo = $(this.dataset)[0]; 
+				var itemToDelete = $('.remove-item').index(this); 
+				shopcart.splice(itemToDelete, 1); 
+				sessionStorage["sca"] = JSON.stringify(shopcart); 
+				outputCart(); 
+			}) 
+		})
+	</script> </body>
+</html>
